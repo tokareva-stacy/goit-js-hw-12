@@ -22,6 +22,13 @@ a {
   color: inherit; 
 }
 
+.controls {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px;
+}
+
 .loader {
   display: none;
   width: 48px;
